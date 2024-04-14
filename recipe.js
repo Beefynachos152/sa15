@@ -11,5 +11,4 @@ function openRecipe(recipeName) {
     document.getElementById(recipeName).style.display = "block";
 }
 
-// Default open first tab
 document.getElementById("Recipe1").style.display = "block";
