@@ -1,4 +1,3 @@
-// script.js
 function openRecipe(recipeName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
