@@ -12,3 +12,5 @@ function openRecipe(recipeName) {
 }
 
 document.getElementById("Recipe1").style.display = "block";
+document.getElementById("Recipe2").style.display = "block";
+document.getElementById("Recipe3").style.display = "block";
