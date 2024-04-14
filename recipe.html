@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Digital Recipe Book</h1>
+    </header>
+    <nav>
+        <button class="tablink" onclick="openRecipe('Recipe1')">Chocolate Cake</button>
+        <button class="tablink" onclick="openRecipe('Recipe2')">Pasta Carbonara</button>
+        <button class="tablink" onclick="openRecipe('Recipe3')">Mango Smoothie</button>
+    </nav>
+    <section id="Recipe1" class="tabcontent">
+        <h2>Chocolate Cake</h2>
+        <p>This chocolate cake is rich and moist. Perfect for every chocolate lover!</p>
+        <!-- Recipe details here -->
+    </section>
+    <section id="Recipe2" class="tabcontent" style="display:none">
+        <h2>Pasta Carbonara</h2>
+        <p>A classic Italian dish that is quick and easy to make but delicious!</p>
+        <!-- Recipe details here -->
+    </section>
+    <section id="Recipe3" class="tabcontent" style="display:none">
+        <h2>Mango Smoothie</h2>
+        <p>This refreshing drink is perfect for hot summer days.</p>
+        <!-- Recipe details here -->
+    </section>
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
