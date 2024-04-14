@@ -11,6 +11,7 @@ function openRecipe(recipeName) {
     document.getElementById(recipeName).style.display = "block";
 }
 
+//Toggle between the recipes
 document.getElementById("Recipe1").style.display = "block";
 document.getElementById("Recipe2").style.display = "block";
 document.getElementById("Recipe3").style.display = "block";
